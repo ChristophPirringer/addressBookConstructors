@@ -1,0 +1,23 @@
+/*html{
+  padding: 50px;
+  background-color: tomato;
+  background-image: url(http://ak-hdl.buzzfed.com/static/2013-11/enhanced/webdr01/21/11/anigif_enhanced-buzz-25559-1385050824-30.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+  color: navy;
+}*/
+
+#show-contact {
+  display: none;
+}
+
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
