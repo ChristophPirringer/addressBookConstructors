@@ -1,12 +1,5 @@
-/*html{
-  padding: 50px;
-  background-color: tomato;
-  background-image: url(http://ak-hdl.buzzfed.com/static/2013-11/enhanced/webdr01/21/11/anigif_enhanced-buzz-25559-1385050824-30.gif);
-  background-repeat: no-repeat;
-  background-size: contain;
-
-
-  color: navy;
+/*#new-addresses {
+  display: none;
 }*/
 
 #show-contact {
@@ -20,4 +13,8 @@
 
 .contact:hover {
   text-decoration: underline;
+}
+
+.warning {
+  border: 3px solid red;
 }

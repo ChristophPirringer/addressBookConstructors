@@ -20,8 +20,15 @@ describe('address', function() {
     expect(testAddress.state).to.equal("Oregon");
   });
 
-  // it('returns the full name of a given contact.', function() {
+  it('returns the full address of a given address.', function() {
+    var testAddress = new Address("Thurlow Drive", "Portland", "Oregon");
+    expect(testAddress.fullAddress()).to.equal("Thurlow Drive, Portland, Oregon");
+  });
+
+  // it('will reset the fields', function() {
   //   var testContact = new Contact("Bill", "Gates");
-  //   expect(testContact.fullName()).to.eql("Bill Gates");
+  //   var testAddress = new Address("Thurlow Drive", "Portland", "Oregon");
+  //   //
+  //   expect(testContact.address()).to.equal("Thurlow Drive, Portland, Oregon");
   // });
 });
