@@ -1,4 +1,11 @@
+function Contact(firstName, lastName) {
+  this.firstName = firstName
+  this.lastName = lastName
+  this.addresses = []
+}
+
 $(document).ready(function() {
+
     $("#add-address").click(function() {
     $("#new-addresses").append('<div class="new-address">' +
                                  '<div class="form-group">' +
@@ -32,7 +39,7 @@ $(document).ready(function() {
   });
 
 
-  $('ul#contacts').append("<li><span class='contact'>" + newContact.firstName + ", " + newContact.lastName + ", " + newContact.address + "</span></li>");
+  $('ul#contacts').append("<li><span class='contact'>" + newContact.firstName + ", " + newContact.lastName + "</span></li>");
     $(".contact").last().click(function() {
       $("#show-contact").show();
       $("#show-contact h2").text(newContact.firstName + " " + newContact.lastName);
